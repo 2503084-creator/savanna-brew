@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Savanna Brew Café - Contact</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <img src="images/savanna-brew-logo.jpg" alt="Savanna Brew Café logo" class="logo">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="menu.html">Menu</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <section class="page-banner">
+    <img src="images/contact-banner.jpg" alt="Coffee cup and beans" class="banner-img">
+    <div class="page-banner-text">
+    </div>
+  </section>
+
+  <main class="contact-page">
+    <div class="contact-layout">
+
+      <section class="reservation-box">
+        <h2 class="box-heading">Reservation Form</h2>
+        <form class="reservation-form">
+          <div class="form-row">
+            <label for="name">Full name:</label>
+            <input type="text" id="name" placeholder="Enter your full name">
+          </div>
+          <div class="form-row">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Enter your email address">
+          </div>
+          <div class="form-row">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" placeholder="Enter your phone number">
+          </div>
+          <div class="form-row">
+            <label for="date">Date:</label>
+            <input type="date" id="date">
+          </div>
+          <div class="form-row">
+            <label for="time">Time:</label>
+            <input type="time" id="time">
+          </div>
+          <div class="form-row">
+            <label for="guests">Guests:</label>
+            <select id="guests">
+              <option value="">Select number of guests</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6+</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <span class="label-text">Occasion:</span>
+            <div class="radio-group">
+              <label><input type="radio" name="occasion" value="birthday"> Birthday</label>
+              <label><input type="radio" name="occasion" value="business"> Business</label>
+              <label><input type="radio" name="occasion" value="other"> Other</label>
+            </div>
+          </div>
+          <div class="form-row">
+            <label for="message">Message:</label>
+            <textarea id="message" rows="4" placeholder="Any special requests?"></textarea>
+          </div>
+          <button type="submit" class="book-btn">Book a Table</button>
+        </form>
+      </section>
+
+      <section class="info-box">
+        <h2 class="box-heading">Find Us</h2>
+        <div class="info-grid">
+          <div class="contact-details">
+            <p><strong>14 Coffee Lane,</strong><br><strong>Westlands, Nairobi</strong></p>
+            <p>info@savannabrew.co.ke</p>
+            <p>+254 700 123 456</p>
+          </div>
+          <div class="hours">
+            <h3>Opening Hours</h3>
+            <p><span>Monday – Friday</span> 9:00 AM – 9:00 PM</p>
+            <p><span>Saturday</span> 7:00 AM – 10:00 PM</p>
+            <p><span>Sunday</span> 8:00 AM – 8:00 PM</p>
+          </div>
+        </div>
+       <iframe
+  src="https://www.google.com/maps?q=Westlands,+Nairobi,+Kenya&output=embed"
+  width="100%"
+  height="250"
+  style="border:0; border-radius:10px; margin: 0 20px; width: calc(100% - 40px);"
+  allowfullscreen
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade">
+</iframe>        
+     <a href="https://maps.google.com/?q=Westlands+Nairobi" target="_blank" class="map-btn">Open in Google Maps</a>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <img src="images/savanna-brew-logo.jpg" alt="Savanna Brew Café logo" class="footer-logo">
+      <p>Brewed in Kenya. Served with love.</p>
+    </div>
+    <div class="footer-social">
+      <h4>Follow Us:</h4>
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">X</a>
+      <a href="#">YouTube</a>
+    </div>
+    <div class="footer-contact">
+      <h4>Contact Us:</h4>
+      <p>info@savannabrew.co.ke</p>
+      <p>+254 700 123 456</p>
+    </div>
+  </footer>
+
+</body>
+</html>
